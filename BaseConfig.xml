@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<BaseInformation>
+
+  <Module>DF</Module>
+  <Module_Section>DF-1</Module_Section>
+  <EQ_Section>EQ6</EQ_Section>
+  <Equipment>POLYG-07</Equipment>
+  <InputType>Differential</InputType>
+  <TargetIP>127.0.0.1</TargetIP>
+  <TargetMQTTtopic>DF2_Acoustic</TargetMQTTtopic>
+  <Protocol>MQTT</Protocol>
+  <E3CollectionBool>false</E3CollectionBool>
+  <DAQtype>1802</DAQtype>
+
+   <Channel1>
+    <Module>DF</Module>
+    <MachineName>POLYG</MachineName>
+    <MachineID>07</MachineID>
+    <TargetComponent>Heater</TargetComponent>
+
+  </Channel1>
+</BaseInformation>
